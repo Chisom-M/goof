@@ -5,7 +5,7 @@ name: snyk-labs/action example - Snyk Issues to Github Issues
 on: 
   push:
     branches:
-      - main
+      - master
 jobs:
   security:
     runs-on: ubuntu-latest
